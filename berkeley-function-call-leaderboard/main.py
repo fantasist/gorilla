@@ -3,19 +3,19 @@ from multiprocessing import Pool
 
 
 test_categories = {
-    # "executable_simple": "gorilla_openfunctions_v1_test_executable_simple.json",
-    # "executable_parallel_function": "gorilla_openfunctions_v1_test_executable_parallel_function.json",
-    # "executable_multiple_function": "gorilla_openfunctions_v1_test_executable_multiple_function.json",
-    # "executable_parallel_multiple_function": "gorilla_openfunctions_v1_test_executable_parallel_multiple_function.json",
-    # "simple": "gorilla_openfunctions_v1_test_simple.json",
-    # "relevance": "gorilla_openfunctions_v1_test_relevance.json",
-    # "parallel_function": "gorilla_openfunctions_v1_test_parallel_function.json",
-    # "multiple_function": "gorilla_openfunctions_v1_test_multiple_function.json",
-    # "parallel_multiple_function": "gorilla_openfunctions_v1_test_parallel_multiple_function.json",
+    "executable_simple": "gorilla_openfunctions_v1_test_executable_simple.json",
+    "executable_parallel_function": "gorilla_openfunctions_v1_test_executable_parallel_function.json",
+    "executable_multiple_function": "gorilla_openfunctions_v1_test_executable_multiple_function.json",
+    "executable_parallel_multiple_function": "gorilla_openfunctions_v1_test_executable_parallel_multiple_function.json",
+    "simple": "gorilla_openfunctions_v1_test_simple.json",
+    "relevance": "gorilla_openfunctions_v1_test_relevance.json",
+    "parallel_function": "gorilla_openfunctions_v1_test_parallel_function.json",
+    "multiple_function": "gorilla_openfunctions_v1_test_multiple_function.json",
+    "parallel_multiple_function": "gorilla_openfunctions_v1_test_parallel_multiple_function.json",
     "java": "gorilla_openfunctions_v1_test_java.json",
-    # "javascript": "gorilla_openfunctions_v1_test_javascript.json",
-    # "rest": "gorilla_openfunctions_v1_test_rest.json",
-    # "sql": "gorilla_openfunctions_v1_test_sql.json",
+    "javascript": "gorilla_openfunctions_v1_test_javascript.json",
+    "rest": "gorilla_openfunctions_v1_test_rest.json",
+    "sql": "gorilla_openfunctions_v1_test_sql.json",
 }
 
 MODELNAME = "v10-099-FC"
