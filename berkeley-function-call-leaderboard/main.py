@@ -35,7 +35,7 @@ def run_eval():
 
 
 if __name__ == "__main__":
-    with Pool(6) as pool:  # Limit the number of processes to 3 for a single 8xA800 instance
+    with Pool(3) as pool:  # Limit the number of processes to 3 for a single 8xA800 instance
         pool.map(run_script, test_categories.keys())
 
 
