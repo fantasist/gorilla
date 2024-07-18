@@ -392,7 +392,7 @@ MODEL_METADATA_MAPPING = {
         "Proprietary",
     ],
     "nosys88-FC": [
-        "v10-099-FC",
+        "nosys88-FC",
         "https://platform.01.ai/",
         "01.AI",
         "Proprietary",
