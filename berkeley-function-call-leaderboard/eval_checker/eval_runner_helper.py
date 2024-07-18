@@ -391,8 +391,8 @@ MODEL_METADATA_MAPPING = {
         "01.AI",
         "Proprietary",
     ],
-    "v10099s980-FC": [
-        "v10099s980-FC",
+    "v676-FC": [
+        "v676-FC",
         "https://platform.01.ai/",
         "01.AI",
         "Proprietary",
@@ -439,7 +439,7 @@ INPUT_PRICE_PER_MILLION_TOKEN = {
     "command-r-plus-FC-optimized": 3,
     "command-r-plus-optimized": 3,
     "yi-large-FC": 3,
-    "v10099s980-FC": 3,
+    "v676-FC": 3,
 }
 
 OUTPUT_PRICE_PER_MILLION_TOKEN = {
@@ -482,7 +482,7 @@ OUTPUT_PRICE_PER_MILLION_TOKEN = {
     "command-r-plus-FC-optimized": 15,
     "command-r-plus-optimized": 15,
     "yi-large-FC": 3,
-    "v10099s980-FC": 3,
+    "v676-FC": 3,
 }
 
 # The latency of the open-source models are hardcoded here.

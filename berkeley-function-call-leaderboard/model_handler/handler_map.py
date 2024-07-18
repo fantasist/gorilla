@@ -83,5 +83,5 @@ handler_map = {
     "nvidia/nemotron-4-340b-instruct": NvidiaHandler,
     "THUDM/glm-4-9b-chat": GLMHandler,
     "yi-large-FC": YiHandler,
-    "v10099s980-FC": YiHandler,
+    "v676-FC": YiHandler,
 }
