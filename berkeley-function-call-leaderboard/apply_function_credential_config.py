@@ -57,17 +57,15 @@ def process_file(input_file_path, output_file_path):
                 # Handle the case where a line is not a valid JSON object
                 print("Invalid JSON line skipped.")
                 continue
-            
+     
     # Write the modified data to the output file
     with open(output_file_path, "w") as f:
         for i, modified_line in enumerate(modified_data):
             f.write(modified_line)
-            if i < len(data) - 1:
-                f.write("\n")        
-            
-    print(f"All placeholders have been replaced for {input_file_path} 🦍.")
-    
-    
+            if i < len(lines) - 1:
+                f.write("\n")
+
+
 def process_dir(input_dir, output_dir):
     # This function does not support nested directories
     # To support nested directories, refer to this commit:
