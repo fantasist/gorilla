@@ -18,7 +18,7 @@ test_categories = {
     "sql": "gorilla_openfunctions_v1_test_sql.json",
 }
 
-MODELNAME = "v10099s830-FC"
+MODELNAME = "v10099s476-FC"
 
 def run_script(category):
     print(category)
